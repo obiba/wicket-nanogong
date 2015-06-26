@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import org.apache.wicket.AttributeModifier;
 import org.apache.wicket.ResourceReference;
+import org.apache.wicket.Session;
 import org.apache.wicket.WicketRuntimeException;
 import org.apache.wicket.ajax.AbstractDefaultAjaxBehavior;
 import org.apache.wicket.ajax.AjaxRequestTarget;
@@ -99,6 +100,7 @@ public class NanoGongApplet extends FormComponent<FileUpload> implements ILinkLi
     variables.put("nanoGong", this.listenerObject);
     variables.put("nanoGongAppletId", this.getMarkupId());
     variables.put("postUrl", this.postUrl());
+    variables.put("sessionId", Session.get().getId());
     variables.put("wicketAjaxUrl", this.ajaxBehavior.getCallbackUrl());
     PackagedTextTemplate template = new PackagedTextTemplate(NanoGongApplet.class, "NanoGongApplet.js");
     template.interpolate(variables);
