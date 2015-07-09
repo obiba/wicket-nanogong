@@ -3,7 +3,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.obiba.wicket</groupId>
-  <artifactId>wicket-nanogong-clsa</artifactId>
+  <artifactId>clsa-wicket-nanogong</artifactId>
   <version>0.1-SNAPSHOT</version>
 
   <dependencies>
