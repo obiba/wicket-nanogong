@@ -210,7 +210,8 @@ public class NanoGongApplet extends FormComponent<FileUpload> implements ILinkLi
     SamplingRate(NanoGongApplet.Rate.class),
     MaxDuration,
     AudioHandlerListener,
-    PostUrl;
+    PostUrl,
+    Cookies;
 
     private final Class<?> type;
 
