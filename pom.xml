@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.obiba.wicket</groupId>
   <artifactId>wicket-nanogong</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
 
   <dependencies>
     <!-- WICKET DEPENDENCIES -->
